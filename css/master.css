@@ -87,9 +87,6 @@ a,a:link{
 .services-box1:hover .services-icon{
   background-color: #ff5e57;
 }
-.services-box1:hover .fa-qq{
-  color:#ff9f1a;
-}
 
 @media screen and (max-width:768px) {
   .services-box{
