@@ -5,9 +5,13 @@
   box-sizing:  border-box;
 }
 
+a,a:link{
+  color: #ddd;
+  text-decoration: none;
+}
 .services-section{
   background-color: #666666;
-  background: url(../bg.jpg);
+  background: url(../images/bg.jpg);
   background-size: cover;
   height:1500px;
   padding: 60px 0;
