@@ -101,3 +101,14 @@ a,a:link{
     max-width:100%;
   }
 }
+
+@media screen and (max-width:768px) {
+  .services-box1{
+    max-width:50%;
+  }
+}
+@media screen and (max-width:480px) {
+  .services-box1{
+    max-width:100%;
+  }
+}
