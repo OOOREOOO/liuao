@@ -71,7 +71,10 @@ a,a:link{
 .services-box:hover .services-icon,.services-box1:hover .services-icon{
   background-color: #82ccdd;
   color: #ddd;
+    border-radius: 50%;
 }
+
+
 .services-title{
   font-size: 18px;
   text-transform: uppercase;
