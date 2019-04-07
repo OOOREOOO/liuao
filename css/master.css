@@ -10,10 +10,11 @@ a,a:link{
   text-decoration: none;
 }
 .services-section{
-  background-color: #666666;
-  background: url(../images/bg.jpg);
+  background: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  /* background: -webkit-linear-gradient(top, #648880, #293f50); */
+  /* background: url(../images/bg.jpg); */
   background-size: cover;
-  height:1500px;
+  height:1000px;
   padding: 60px 0;
   background-repeat: repeat-y;
 }
