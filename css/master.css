@@ -45,7 +45,7 @@ a,a:link{
   justify-content: center;
   flex-wrap: wrap;
 }
-.services-box{
+.services-box,.services-box1{
   max-width:33.33%;
   padding: 10px;
   text-align: center;
@@ -68,7 +68,7 @@ a,a:link{
   transform: rotate(-45deg);
   font-size: 26px;
 }
-.services-box:hover .services-icon{
+.services-box:hover .services-icon,.services-box1:hover .services-icon{
   background-color: #82ccdd;
   color: #ddd;
 }
@@ -80,6 +80,17 @@ a,a:link{
 .services-desc{
   font-size: 14px;
 }
+
+{
+
+}
+.services-box1:hover .services-icon{
+  background-color: #ff5e57;
+}
+.services-box1:hover .fa-qq{
+  color:#ff9f1a;
+}
+
 @media screen and (max-width:768px) {
   .services-box{
     max-width:50%;
