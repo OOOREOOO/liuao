@@ -6,6 +6,7 @@
 
 1. 腾讯网： https://oooreooo.github.io/liuao/src/tengxunwang.html
 2. 粒子漩涡 ：https://oooreooo.github.io/liuao/src/lizixuanwo.html
+3. 动态搜索栏 ：https://oooreooo.github.io/liuao/src/search.html
 
 
 
