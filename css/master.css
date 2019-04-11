@@ -12,13 +12,15 @@ body{
 .navbar{
   border-bottom: 1px solid rgba(133, 133, 133,0.5);
 }
-.navbar a:link,a:hover,a:visited{
-  color:#333;
-}
+
 .bg-light{
   background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
 }
-.services-section  a, a:link, a:visited{
+.services-section  a:link{
+  color: #ffe;
+  text-decoration: none;
+}
+.services-section  a:visited{
   color: #ffe;
   text-decoration: none;
 }
@@ -26,7 +28,12 @@ body{
   color:rgb(0, 4, 85);
 }
 
-
+.dropdown-menu a:link{
+  rgb(98, 98, 98);
+}
+.nav-link{
+  COLOR:#333;
+}
 .services-section{
   background-size: cover;
   height:1000px;
