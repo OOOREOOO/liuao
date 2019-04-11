@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  /* font-family: "Microsoft YaHei","SimHei"; */
 }
 
 #top a:visited,a:link{
@@ -17,7 +17,7 @@
 
 #top {
   width: 1400px;
-  height: 60px;
+  height: 80px;
   /* background-color: #ffe; */
   display: flex;
   justify-content: space-between;
@@ -93,17 +93,19 @@
 
   #nav {
     width: 1400px;
-    /* height: 500px; */
     background-color: #1479D7;
     /* display: flex;
     justify-content: space-around;
     align-items: center; */
+
     margin: 0 auto;
     border-radius: 3px;
-    position:absolute;
+    margin: 0 auto;
+    /* position:absolute;
     transform: translate(-50%,-30%);
     left:50%;
-    top:90px;
+    top:90px; */
+
     /* margin-top: 500px;
     margin-bottom: 500px; */
   }
@@ -130,8 +132,9 @@
     background-color: #f9fbfc;
     width:1400px;
     position: absolute;
-    top:55px;
+    top:125px;
     left:50%;
+
     transform: translate(-50%,0);
     border:1px solid rgb(190, 190, 190);
     padding-bottom: 8px;
@@ -152,7 +155,8 @@
   .more li:first-child{
     margin-left: 0;
   }
-  a::after{
+
+  #nav::after{
     display: block;
     content: "";
     clear: both;
@@ -178,7 +182,7 @@
   height: 1500px;
   /* background-color: #ffe; */
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 .box a:hover{
   color:#1479D7;

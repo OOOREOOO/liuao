@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "montserrat",sans-serif;
   box-sizing:  border-box;
+  font-family: "Microsoft YaHei","SimHei","aria";
 }
 
 a,a:link{
@@ -30,7 +31,6 @@ background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
 .section-title{
   text-align:center;
   color:#ddd;
-  text-transform: uppercase;
   font-size: 30px;
 }
 .border{
