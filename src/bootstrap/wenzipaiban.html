@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.css">
+
+  <title>bootstrap 文字排版</title>
+  <style>
+  .bady{
+    background-color: rgb(154, 117, 83);
+  }
+  .container-fluid span{
+      display:block;
+      width:400px;
+      height:200px;
+      line-height:200px;
+      margin:0 auto;
+      text-align:center;
+      font-size:2em;
+    }
+    .right{
+      text-align:right;
+    }
+    .container{
+      width:82%;
+      line-height:30px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>hello world</h1>
+  <h1 class="font-weight-bold text-right text-capitalize">hello world</h1>
+
+<div class="container">
+  <table class="reference">
+    <tbody><tr>
+      <th style="width:25%;">类名</th>
+      <th style="width:75%;">描述</th>
+      <!-- <th style="width:12%;">实例</th> -->
+    </tr>
+    <tr>
+      <td><span class="marked">.font-weight-bold</span></td>
+      <td>加粗文本</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.font-weight-normal</span></td>
+      <td>普通文本</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.font-weight-light</span></td>
+      <td>更细的文本</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.font-italic</span></td>
+      <td>斜体文本</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.lead</span></td>
+      <td>让段落更突出</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.small</span></td>
+      <td>指定更小文本 (为父元素的 85% )</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.text-left</span></td>
+      <td>左对齐</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.text-center</span></td>
+      <td>居中</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.text-right</span></td>
+      <td>右对齐</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.text-justify</span></td>
+      <td>设定文本对齐,段落中超出屏幕部分文字自动换行</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.text-nowrap</span></td>
+      <td>段落中超出屏幕部分不换行</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.text-lowercase</span></td>
+      <td>设定文本小写</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.text-uppercase</span></td>
+      <td>设定文本大写</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.text-capitalize</span></td>
+      <td>设定单词首字母大写</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.initialism</span></td>
+      <td>显示在 &lt;abbr&gt; 元素中的文本以小号字体展示，且可以将小写字母转换为大写字母</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.list-unstyled</span></td>
+     <td>移除默认的列表样式，列表项中左对齐 ( &lt;ul&gt; 和 &lt;ol&gt; 中)。 这个类仅适用于直接子列表项
+    (如果需要移除嵌套的列表项，你需要在嵌套的列表中使用该样式)</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.list-inline</span></td>
+      <td>将所有列表项放置同一行</td>
+    </tr>
+    <tr>
+      <td><span class="marked">.pre-scrollable</span></td>
+      <td>使 &lt;pre&gt; 元素可滚动，代码块区域最大高度为340px,一旦超出这个高度,就会在Y轴出现滚动条</td>
+    </tr>
+  </tbody></table>  </div>
+
+<div class="container-fluid">
+  <span> h1 - h6 </span>
+  <h1>h1 Bootstrap 标题 (2.5rem = 40px)</h1>
+  <h2>h2 Bootstrap 标题 (2rem = 32px)</h2>
+  <h3>h3 Bootstrap 标题 (1.75rem = 28px)</h3>
+  <h4>h4 Bootstrap 标题 (1.5rem = 24px)</h4>
+  <h5>h5 Bootstrap 标题 (1.25rem = 20px)</h5>
+  <h6>h6 Bootstrap 标题 (1rem = 16px)</h6>
+  <p class="right">Bootstrap 中定义了所有的 HTML 标题（h1 到 h6）的样式。</p>
+
+  <span>更大的文本 display-x</span>
+  <h1>display title</h1>
+  <p>标题可以输出更大更粗的字体样式。</p>
+  <h1 class="display-1">display-1</h1>
+  <h1 class="display-2">display-2</h1>
+  <h1 class="display-3">display-3</h1>
+  <h1 class="display-4">display-4</h1>
+  <p class="right">Bootstrap 还提供了四个 Display 类来控制标题的样式: .display-1, .display-2, .display-3, .display-4。</p>
+
+  <span>更小更细的文本small</span>
+  <h1>title</h1>
+  <h1>h1 标题 <small>副标题</small></h1>
+  <h2>h2 标题 <small>副标题</small></h2>
+  <h3>h3 标题 <small>副标题</small></h3>
+  <h4>h4 标题 <small>副标题</small></h4>
+  <h5>h5 标题 <small>副标题</small></h5>
+  <h6>h6 标题 <small>副标题</small></h6>
+  <p class="right">在 Bootstrap 4 中 HTML <small> 元素用于创建字号更小的颜色更浅的文本:</p> -->
+
+  <span>标记批注</span>
+  <h1>高亮文本</h1>
+  <p style="text-align:left;">使用mark元素来 <mark>高亮</mark>文本 </p>
+
+  <span>虚线边框</span>
+  <h1>Abbreviations</h1>
+  <p>The abbr element is used to mark up an abbreviation or acronym:</p>
+  <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+  <span>Blockquotes</span>
+  <h1>Blockquotes</h1>
+   <p>The blockquote element is used to present content from another source:</p>
+   <blockquote class="blockquote">
+   <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+   <footer class="blockquote-footer">From WWF's website</footer>
+
+   <span> dl(description list) </span>
+   <h1>Description Lists</h1>
+  <p>The dl element indicates a description list:</p>
+  <dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+  </dl>
+
+  <span>代码</span>
+  <h1>代码片段</h1>
+  <p>可以将一些代码元素放到 code 元素里面:</p>
+  <p>以下 HTML 元素: <code>span</code>, <code>section</code>, 和 <code>div</code> 用于定义部分文档内容。</p>
+
+  <span>kbd</span>
+  <h1>Keyboard Inputs</h1>
+   <p>To indicate input that is typically entered via the keyboard, use the kbd element:</p>
+   <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+
+   <span>pre</span>
+   <h1>Multiple Code Lines</h1>
+  <p>For multiple lines of code, use the pre element:</p>
+  <pre>
+  Text in a pre element
+  is displayed in a fixed-width
+  font, and it preserves
+  both      spaces and
+  line breaks.
+  </pre>
+
+
+</div>
+
+
+
+
+
+
+  <script src="https://cdn.staticfile.org/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
