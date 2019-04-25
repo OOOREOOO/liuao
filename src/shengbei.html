@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.css">
+  <title>Document</title>
+  <style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .container-fluid{
+    padding:0;
+    padding-left: 200px;
+    padding-right: 300px;
+    /* clear:both; */
+  }
+  .column{
+    float: left;
+    height:200px;
+    position:relative;
+  }
+  #center{
+    width:100%;
+    /* margin-left: 200px;
+    margin-right: 300px; */
+  }
+  #left{
+    width: 200px;
+    margin-left: -100%;
+    right:200px;
+  }
+  #right{
+    width: 300px;
+    margin-right: -300px;
+  }
+  /* .column::after{
+    content: "";
+    display: block;
+    clear:both;
+  } */
+  #footer{
+    clear:both;
+  }
+
+  </style>
+</head>
+
+<body>
+  <div id="header" class="bg-primary">header</div>
+  <div class="container-fluid bg-success ">
+
+      <div id="center" class="column bg-info">center</div>
+      <div id="left" class="column bg-danger">left</div>
+      <div id="right" class="column bg-danger">right</div>
+  </div>
+  <div id="footer" class="bg-primary">footer</div>
+
+
+
+
+  <!-- <form action="">
+    <input type="number" id="one" placeholder="第一个数字">
+    <input type="number" id="two" placeholder="第二个数字">
+    <button onclick=" add(); ">+</button>
+  </form> -->
+ <!-- <script type="text/javascript">
+   //alert("nishisb");
+   //var mood = true ;
+    //mood = mood.toString();
+    //mood = toString(mood);
+   //alert(typeof mood);
+
+    //document.write("你看我在哪里出现");
+  //  console.log("23333333333333333333333333333333333");
+  var one = document.getElementById("one");
+  var two = document.getElementById("two");
+
+  function add() {
+    console.log(number(one.value) + number(two.value));
+    alert( (one.value) + Number(two.value));
+  }
+
+
+  </script> -->
+  <script src="https://cdn.staticfile.org/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+  <!-- <script src="js/script.js" charset="utf-8"></script> -->
+</body>
+</html>

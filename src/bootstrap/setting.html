@@ -7,29 +7,96 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.css">
   <title>Document</title>
+  <style>
+    .contain {
+      height: 1000px;
+      background-color: rgb(70, 147, 124);
+    }
+    .contain a{
+      color:#ffe;
+      text-align: center;
+    }
+    .contain a:active{
+
+    }
+    .contain a:hover{
+      font-size: 1.5em;
+    }
+
+    .nav-pills > li.active > a:open {
+      color: #fff;
+          background-color: rgb(141, 143, 65);
+    }
+    li {
+      margin: 20px 0px;
+      padding: 20px;
+    }
+    .content{
+      background-color: #ddd;
+      margin:100px 10% ;
+    }
+    {
+      background-color: rgb(141, 143, 65);
+    }
+  </style>
 </head>
+
 <body>
-<div class="nav bg-dark navbar-light">
-  <ul class="nav nav-tabs ">
-    <li class="nav-item">
-      <a href="#" class="nav-link active">Active</a>
-    </li>
-    <li class="nav-item">
-      <a href="#" class="nav-link">Link</a>
-    </li>
-    <li class="nav-item">
-      <a href="#" class="nav-link">Another link</a>
-    </li>
-    <li class="nav-item disabled">
-      <a href="#" class="nav-link">Disabled</a>
-    </li>
-  </ul>
-  </div>
+  <div class="row">
+    <div class="col-3">
+      <div class="contain ">
+        <ul class="nav nav-pills flex-column" role="tablist">
+          <li class="nav-item">
+            <a href="#menu2" data-toggle="tab" class="nav-link  ">home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu2" data-toggle="tab" class="nav-link ">menu1</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu2" data-toggle="tab" class="nav-link active">JavaScript基础</a>
+          </li>
+        </ul>
+        <br>
+      </div>
+    </div>
+
+    <div class="col-9">
+      <div class="content">
+      <div class="tab-content">
+        <div id="home" class="container tab-pane active"><br>
+          <h3>HOME</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div id="menu1" class="container tab-pane fade"><br>
+          <h3>Menu 1</h3>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div id="menu2" class="container tab-pane fade"><br>
+          <h3>js</h3>
+          <p>script标签一旦引入文件就不能再编写代码了，即使编写了也会被忽略（如有特殊需要则再新建个script标签）执行顺序依然是从上到下特别要注意每一个语句后的分号要是英文格式； alert("nishiyigeshazi");</p>
+
+          <h3>标识符</h3>
+          <p>js中自主命名的都可以成为标识符<br>
+          	Egg；变量名、函数名、属性名都属于标识符<br>
+          	js底层保存标识符时实际上是采用的Unicode-8</p>
+          <p style="text-indent:8px;">	标识符命名规则<br>
+          		1.标识符中可以含有字母、数字、_、$ <br>
+          		2.标识符不能以数字开头 <br>
+          		3.标识符不能是es中的关键字或保留字<br>
+          		4.标识符一般都采用驼峰命名法（首字母小写，后面的单词首字母大写）<br>
+          </p>
 
 
-  <script src="https://cdn.staticfile.org/jquery/3.4.0/jquery.min.js"></script>
-  <script src="https://cdn.staticfile.org/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.staticfile.org/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>

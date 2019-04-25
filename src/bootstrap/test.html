@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <form action="">
+      <input type="text" value="你是个傻子">
+      <br><br>
+      <button onclick="change()">点我试一下</button>
+
+
+    </form>
+
+      <script type="text/javascript">
+
+        function change(){
+          document.getElementsByTagName("input")[0].setAttribute("type","button")
+        };
+
+      </script>
+  </body>
+</html>
