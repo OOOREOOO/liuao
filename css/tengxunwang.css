@@ -297,16 +297,17 @@ p {
   align-items: center;
   width: 440px;
   height: 50px;
-  border-bottom: 1px solid rgb(47, 87, 120);
+  border-bottom: 1px solid #B6D4EE;
   /* background-color: rgb(29, 62, 52); */
 }
 .title_2{
-  width: 80px;
+  width: 85px;
   height: 50px;
   line-height: 50px;
-  font-size: 20px;
+  font-size: 1.3em;
   float:left;
   margin-left: 30px;
+  color: #1479D7;
 
 }
 .line{
@@ -319,12 +320,13 @@ p {
   top:265px;
 }
 .title_1 {
-  width: 40px;
+  width: 45px;
   height: 50px;
   line-height: 50px;
-  font-size: 20px;
+  font-size: 1.3em;
   float:left;
   vertical-align:middle;
+  color: #1479D7;
 }
 .img_3 {
   width: 104px;
@@ -336,9 +338,9 @@ p {
   float:right;
   margin-right: 0;
 }
-.title_1:hover,.title_2:hover{
+/* .title_1:hover,.title_2:hover{
   border-bottom: 4px solid #1479D7;
-}
+} */
 .title_2:hover < .space1{
   visibility: none;
 }
@@ -384,10 +386,11 @@ p {
 .box2 {
   width: 435px;
   height: 50px;
-  border-bottom: 1px solid rgb(47, 87, 120);
+  border-bottom: 1px solid #B6D4EE;
 }
 .box2 .title_1{
-  width:80px;
+  width:85px;
+  border-bottom: 4px solid #1479D7;
 }
 .space2,.space3{
   /* width:450px; */
@@ -600,6 +603,9 @@ p {
   height:120px;
   margin-top: 10px;
 }
+.container p:hover{
+  color: #0C82FF;
+}
 .photo1,.photo2,.photo3,.photo4,.photo5,.photo6{
   width:214px;
   height:118px;
@@ -735,4 +741,7 @@ p {
   height:100px;
   background-color: #fabc60;
   border-radius: 8px;
+}
+.actived{
+  border-bottom: 4px solid #1479D7;
 }
