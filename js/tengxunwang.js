@@ -1,4 +1,3 @@
-
 var title1 = document.getElementById("title_1");
 var title2 = document.getElementById("title_2");
 var weather = document.getElementById("weather")
@@ -31,7 +30,7 @@ box.onmouseout  = function weather_hi(){
   weather.style.visibility = "hidden" ;
 }
 
-//下拉搜索栏
+//下拉搜索切换
 search_nav.onmouseover = function hide(){
   hidden.style.visibility = "visible" ;
   angle.className = "fas fa-angle-up" ;
@@ -39,4 +38,8 @@ search_nav.onmouseover = function hide(){
 search_nav.onmouseout = function vi() {
   hidden.style.visibility = "hidden" ;
   angle.className = "fas fa-angle-down" ;
+}
+
+window.onload = function (){
+  alert("JavaScript加载完成");
 }

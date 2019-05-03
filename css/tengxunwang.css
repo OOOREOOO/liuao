@@ -119,6 +119,8 @@ a:visited{
     position: relative;
     top:-37px;
     right:20px;
+    border: none;
+    font-size: 1em;
   }
   .right_part {
     width: 120px;
