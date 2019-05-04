@@ -309,11 +309,35 @@ a:visited{
   background-color: #e16262;
   background: url("../images/22.jpg")
 }
-#ad2 {
+.ad2_box{
+  height: 75px;
+  width: 440px;
+  overflow: hidden;
+}
+.photo_box{
+  width:1320px;
+  animation: switch 5s ease-out infinite;
+}
+}
+.ad2_box a{
+  display: inline-block;
+  float: left;
+  width: 440px;
+  height: 75px;
+}
+
+.ad2 {
+
   width: 440px;
   height: 75px;
   background-color: #e16262;
-  background: url("../images/7.png")
+  background: url("https://img1.gtimg.com/ninja/2/2018/10/ninja153907291410277.png") no-repeat;
+}
+#ad2_2{
+  background:url("https://mat1.gtimg.com/pingjs/ext2020/test2017/netwatch.png");
+}
+#ad2_3{
+  background: url("https://img1.gtimg.com/ninja/2/2018/10/ninja153907290259802.png");
 }
 .box {
   width: 100%;
@@ -798,4 +822,18 @@ p {
   left:-340px;
   visibility: hidden;
   /* visibility: visible; */
+}
+@keyframes switch {
+	0%, 25% {
+		margin-top: 0;
+	}
+	35%, 60% {
+		margin-top: -75px;
+	}
+	70%, 100% {
+		margin-top: -150px;
+	}
+  /* 100% {
+    margin-top: 0 ;
+  } */
 }

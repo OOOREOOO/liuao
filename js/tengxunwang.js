@@ -5,6 +5,7 @@ var box = document.getElementById("img_3");
 var search_nav = document.getElementById("search_nav");
 var hidden = document.getElementById("hidden");
 var angle = document.getElementById("angle");
+var id2
 
 //要闻，浙江新闻2选一激活
 title1.onmouseover = function t1(){
@@ -43,3 +44,10 @@ search_nav.onmouseout = function vi() {
 window.onload = function (){
   alert("JavaScript加载完成");
 }
+
+
+
+
+
+
+https://img1.gtimg.com/ninja/2/2018/10/ninja153907291410277.png
