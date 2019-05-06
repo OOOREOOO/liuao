@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #f0932b;
+}
+.munu{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    /* border: 1px solid #000; */
+}
+
+.middle{
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.btn{
+    display: block;
+    background-color: #6ab04c;
+    padding: 16px 20px;
+    position: relative;
+    color: #fff;
+}
+.item{
+    border-top: 1px solid  #333;
+    overflow: hidden;
+}
+.item:first-child{
+    border: none;
+}
+.smenu a{
+    display: block;
+    padding: 16px 26px;
+    color: #fff;
+    margin: 4px 0;
+    font-size: 14px;
+    position: relative;
+}
+.smenu{
+    /* padding: 10px; */
+    background-color: #333;
+    transition: max-height 0.3s;
+    max-height: 0;
+    overflow: hidden;
+    /* margin: 10px; */
+}
+.btn:before{
+    position: absolute;
+    content: "";
+    width:  14px;
+    height: 14px;
+    background-color: #6ab04c;
+    transform: rotate(45deg);
+    left:20px;
+    bottom: -7px;
+}
+.btn i{
+    margin-right: 10px;
+}
+.smenu a::before{
+    content: "";
+    position: absolute;
+    width:6px;
+    height: 100%;
+    background-color: #6ab04c;
+    left:0px;
+    top:0px;
+    transition: 0.3s;
+    opacity: 0;
+}
+.smenu a:hover::before{
+    opacity: 1;
+}
+.item:target .smenu{
+    max-height: 10em;
+}
