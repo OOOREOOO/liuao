@@ -42,5 +42,5 @@ ali iconfont
  	 src: url('//at.alicdn.com/t/webfont_yompshlepma.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
  	 url('//at.alicdn.com/t/webfont_yompshlepma.woff') format('woff'), /* chrome、firefox */
  	 url('//at.alicdn.com/t/webfont_yompshlepma.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
- 	 url('//at.alicdn.com/t/webfont_yompshlepma.svg#NotoSansHans-DemiLight') format('svg'); /* iOS 4.1- */
+ 	 url('//at.alicdn.com/t/webfont_yompshlepma.svg#NotoSansHans-DemiLight') format('svg'); /* iOS 4.1- */ }
 欢迎来到OOOREOOO的主页，练习专用
