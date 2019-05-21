@@ -1,4 +1,4 @@
-@font-face {font-family: 'siyuan';
+@font-face {font-family: 'webfont';
     src: url('//at.alicdn.com/t/webfont_iduiegac2t.eot'); /* IE9*/
     src: url('//at.alicdn.com/t/webfont_iduiegac2t.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
     url('//at.alicdn.com/t/webfont_iduiegac2t.woff') format('woff'), /* chrome、firefox */
@@ -7,21 +7,20 @@
   }
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC|Poppins');
 body{
-    height:1200px;
-    font-family: siyuan;
+    height: 1000px;
+    font-family: 'Noto Sans SC', sans-serif;
     /* background: linear-gradient(to top , #3E12C7 , #0C9790) */
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 .middle{
     width: 80%;
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: 350px;
     transform: translate(-50%,-50%);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* margin-top: 100px; */
 
 }
 .logo{
@@ -66,13 +65,13 @@ input{
     padding: 10px 20px;
     border: none;
     font-size: 1.5em;
-    font-family: siyuan;
+    font-family: 'Noto Sans SC', sans-serif;
     border-radius: 10px;
     color: #2c3e50;
 }
 .last{
-    position: absolute;
-    top: 120%;
+    position:fixed;
+    bottom: 10%;
     width: 90%;
     color: #fff;
     left: 50%;
@@ -83,54 +82,4 @@ input{
 }
 .signin{
     float: right;
-}
-
-
-
-
-
-
-@media screen and (max-width:380px){
-    .middle{
-        width: 100%;
-        top:250px;
-    }
-    body{
-        transform: scale(0.9);
-    }
-    /* .last{
-        transform: translate(-50%,-150px);
-
-    } */
-}
-
-@media screen and (max-width:350px){
-    .middle{
-        top:225px;
-    }
-    body{
-        transform: scale(0.9);
-    }
-    .last{
-        top:110%;
-    }
-}
-
-@media screen and (min-device-height:800px){
-    .middle{
-        top:350px;
-    }
-    body{
-        transform: scale(1.05);
-    }
-}
-@media screen and (min-width:768px){
-
-    body{
-        transform: scale(1.2);
-    }
-    .last{
-       top:150%;
-
-    }
 }

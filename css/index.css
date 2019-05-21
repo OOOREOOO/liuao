@@ -1,0 +1,45 @@
+@font-face {font-family: 'siyuan';
+    src: url('//at.alicdn.com/t/webfont_yompshlepma.eot'); /* IE9*/
+    src: url('//at.alicdn.com/t/webfont_yompshlepma.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//at.alicdn.com/t/webfont_yompshlepma.woff') format('woff'), /* chrome、firefox */
+    url('//at.alicdn.com/t/webfont_yompshlepma.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('//at.alicdn.com/t/webfont_yompshlepma.svg#NotoSansHans-DemiLight') format('svg'); /* iOS 4.1- */ }
+;
+
+.main{
+    height: 1000px;
+    background-image: linear-gradient(to top, #d1e2e7, #e2dfe9 );
+}
+.top{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#cir{
+    margin: 0 auto;
+    background-color: #fff;
+    width: 80%;
+    height: 0;
+    padding-top: 80%;
+    margin-top: 20px;
+    border-radius: 50%;
+    background: url('../images/2.gif');
+    background-size: contain;
+}
+.cires{
+    background-color: rgba(30, 30, 30, 0.5);
+    color: aliceblue;
+    width: 50%;
+    margin: 0 auto;
+    height: 0;
+    padding-top: 50%;
+    position: relative;
+    transform: translate(0,-120%)
+}
+.top_p{
+    position: relative;
+    transform: translate(0,-700%)
+
+}
