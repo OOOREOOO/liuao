@@ -4,7 +4,7 @@
 *{
     text-shadow: none;
 }
-.ui-mobile-viewport #pageone
+.ui-mobile-viewport #pageone,#pagefor
 {
     background: #1F2024;
 }
@@ -48,7 +48,6 @@
 
 }
 .ui-mobile-viewport .right-p{
-    background-color: rgba(30,30,30,0.3);
     height: 250px;
     text-shadow: none;
     color: aliceblue;
@@ -72,7 +71,7 @@
     /* margin-top: 5px; */
 }
 
-.box{
+#pageone .box{
     background-color: #fff;
     text-align: center;
     display: flex;
@@ -89,7 +88,7 @@
 .table-button .box{
     border-bottom: 0;
 }
-.box span{
+#pageone .box span{
     display: block;
     line-height: 20px;
     margin: 0 auto;
@@ -98,7 +97,7 @@
     font-size: 1.5rem;
     text-shadow: none;
 }
-.box i{
+#pageone .box i{
     display: block;
     display: inline-blocks;
     margin-top: 5px;
@@ -184,7 +183,7 @@
 .ui-mobile-viewport .footer{
     background-color: #39424a;
     border: none;
-    height: 8%;
+    /* height: 8%; */
 }
 .ui-mobile-viewport .footer-box{
     display: flex;
@@ -234,3 +233,8 @@
 a:hover{
     text-decoration: none
 }
+
+
+
+
+

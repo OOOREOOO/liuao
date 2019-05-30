@@ -1,0 +1,33 @@
+/* 我的页面 */
+/* .ui-mobile-viewport #pagefor #header{
+    background-color: none;
+    border: none;
+    text-shadow: none;
+    color: #71BD38;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#pagefor i{
+    display: inline;
+    vertical-align: middle;
+}
+#pagefor h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+#pagefor i:last-child{
+    color: #8BC321;
+} */
+#content4{
+    text-shadow: none;
+}
+.main-bg4{
+    width: 100%;
+    height: 300px;
+    background: url('../images/bg2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
