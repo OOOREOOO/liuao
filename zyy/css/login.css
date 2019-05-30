@@ -1,0 +1,126 @@
+/* .ui-mobile-viewport{
+    background: url('../images/log1.png') no-repeat;
+    background-size: cover;
+} */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC|Oxygen|Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap');
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+body{
+    width: 100%;
+    /* height: 1000px; */
+    background-color: #333;
+    background: url('../images/log1.png') no-repeat;
+    background-size: cover;
+}
+.middle{
+    width: 80%;
+    /* height: 1000px; */
+    margin: 0 auto;
+
+    /* position: relative;
+    left: 50%;
+    transform: translate(-25%,0); */
+}
+.user , .password{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background: url('../images/logo1.png') no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+.input{
+    width: 100%;
+   margin: 0 auto;
+}
+.input span{
+    display: inline-block;
+    height: 50px;
+    width: 70px;
+    border: 1px solid #52934F;
+    border-right: none;
+    line-height: 48px;
+    text-align: center;
+    position: relative;
+    left: 5px;
+    color: #52934F;
+    border-radius: 50px 0 0 50px;
+}
+#user , #password{
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+    background:none;
+    border: 1px solid #52934F;
+    border-left: none;
+    border-radius: 0 50px 50px 0;
+}
+.user{
+    margin-top: 30%;
+    margin-bottom: 10%;
+}
+.login{
+    font-style: normal;
+    font-family: 'Noto Sans SC', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftspan{
+    display: inline-block;
+    width: 30%;
+}
+.rightspan{
+    display: inline-block;
+    width: 30%;
+}
+.leftspan , .rightspan{
+    background-image: linear-gradient(120deg, #6CCB67, #8fd3f4 100%); 
+   border-radius: 50px;
+   padding: 1%;
+}
+.forget{
+    margin-top: 50px;
+    color: rgb(162, 169, 175);
+    font-family: 'Noto Sans SC', sans-serif;
+    position: relative;
+    left: 40%;
+    font-size: 0.9em;
+}
+#checkbox{
+    margin-top: 10%;
+    color: aliceblue;
+    display: none;
+}
+#check{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    background-image: linear-gradient(120deg, #6CCB67, #8fd3f4 100%); 
+}
+#reg-sign{
+    font-style: normal;
+    font-family: 'Noto Sans SC', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    padding: 6%;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    width: 30%;  
+    line-height: 5px;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 20%;
+}
