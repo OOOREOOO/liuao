@@ -20,10 +20,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/index4.css">
+    <link rel="stylesheet" href="css/index2.css" />
+    <link rel="stylesheet" href="css/index4.css" />
     <title>主页</title>
     <style></style>
   </head>
+
   <body>
     <div id="pageone" data-role="page" style="background: #1F2024;">
       <div
@@ -146,13 +148,12 @@
     </div>
 
     <div data-role="page" id="pagetwo">
-      <div data-role="header">
-        <h1>欢迎来到我的主页</h1>
-      </div>
-
       <div data-role="main" class="ui-content">
-        <p>这是第二个页面。点击以下链接跳转到第一个页面。</p>
-        <a href="#pageone">跳转到第一个页面</a>
+        <div id="header">
+          <i class="fas fa-angle-left"></i>
+          <h5>我的课程</h5>
+          <i class="fas fa-brush"></i>
+        </div>
       </div>
 
       <div class="footer" data-role="footer" data-position="fixed">
@@ -209,36 +210,68 @@
       </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
     <!-- 我的页面 第四个 -->
     <div data-role="page" id="pagefor">
-
-
       <div data-role="main" id="content4">
-        <!-- <div id="header">
-                <i class="fas fa-angle-left"></i>
-                <h5>我的课程</h5>
-                <i class="fas fa-brush"></i>
-        </div> -->
-        <div class="main-bg4"></div>
-
-
-
-
-
-
-
-        <p>这是第二个页面。点四以下链接跳转到第一个页面。</p>
-        <a href="#pageone">跳转到第一个页面</a>
+        <div class="main-bg4">
+          <div class="photo4"></div>
+          <span>Jana Novakona</span>
+          <div class="p4">
+            <p>修改资料</p>
+            <i class="far fa-sticky-note"></i>
+          </div>
+          <div class="box4">
+            <div class="box44"><span>64</span>动态</div>
+            <div class="box44"><span>21</span>关注</div>
+            <div class="box44"><span>608</span>粉丝</div>
+          </div>
+        </div>
+        <div class="main">
+          <div class="icon">
+            <div class="icon-pack">
+              <div class="pack pack1"></div>
+              <p>训练历史</p>
+            </div>
+            <div class="icon-pack">
+              <div class="pack2 pack"></div>
+              <p>身体数据</p>
+            </div>
+            <div class="icon-pack">
+              <div class="pack3 pack"></div>
+              <p>训练等级</p>
+            </div>
+            <div class="icon-pack">
+              <div class="pack4 pack"></div>
+              <p>跑步等级</p>
+            </div>
+          </div>
+          <div class="card4">
+            <div class="row">
+              <div class="col-10">我的徽章</div>
+              <div class="col-2"></div>
+            </div>
+            <div class="row">
+              <div class="col-10">我的收藏</div>
+              <div class="col-2"></div>
+            </div>
+            <div class="row">
+              <div class="col-10">购物车</div>
+              <div class="col-2"></div>
+            </div>
+            <div class="row">
+              <div class="col-10">我的订单</div>
+              <div class="col-2"></div>
+            </div>
+            <div class="row">
+              <div class="col-10">优惠卷</div>
+              <div class="col-2"></div>
+            </div>
+            <div class="row">
+              <div class="col-10">退出</div>
+              <div class="col-2"></div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="footer" data-role="footer" data-position="fixed">
