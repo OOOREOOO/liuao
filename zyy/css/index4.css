@@ -1,26 +1,5 @@
 /* 我的页面 */
-.ui-mobile-viewport #pagefor #header{
-    background-color: none;
-    border: none;
-    text-shadow: none;
-    color: #71BD38;
-    font-family: 'Noto Sans SC', sans-serif;
-    font-size: 1.1em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#pagefor i{
-    display: inline;
-    vertical-align: middle;
-}
-#pagefor h1{
-    display: inline-block;
-    vertical-align: middle;
-}
-#pagefor i:last-child{
-    color: #8BC321;
-}
+
 #content4{
     text-shadow: none;
 }
@@ -126,6 +105,7 @@
 }
 .card4{
     background: #25262B;
+    margin-bottom: 100px;
 }
 .card4 .row{
     padding: 20px;
@@ -140,4 +120,12 @@
     background: url('../images/icon8.png')no-repeat;
     background-size: contain;
     vertical-align: middle;
+}
+.rowmer{
+    width: 100%;
+    height: 20px;
+    background-color: #1F2024;
+}
+.card4 .noborder{
+    border: 0 solid #fff;
 }
