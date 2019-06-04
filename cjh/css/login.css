@@ -129,3 +129,7 @@ input::-webkit-input-placeholder {
     background:url('../images/icon2.png') no-repeat;
     background-size: contain;
 }
+.check{
+  margin-left: 20px;
+  color: #ebebebb4;
+}
