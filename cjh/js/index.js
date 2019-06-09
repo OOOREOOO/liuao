@@ -29,6 +29,21 @@ timefun=setInterval(time,2000);
 //根据下标进行操作
 function changeStyle(index){
 	$('.ani').find('span').eq(index).show().siblings().hide();
+	$('.ni').find('span').eq(index).show().siblings().hide();
 	$('.title').find('span').eq(index).css({"color":"red"}).siblings().css({"color":"black"});
 }
 
+// var pageone = document.getElementById('pageone');
+// function black(){
+// 	if (pageone.className == ui-page-active) {
+// 		$('#icon1').css('background','url("../images/icon5.png") no-repeat;')
+// 	}
+// }
+var h =  window.innerHeight;
+var content  = document.getElementById('content')
+function hh (){
+	content.style.height = h + 'px';
+}
+window.onload =function (){
+	hh();
+}

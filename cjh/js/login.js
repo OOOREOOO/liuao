@@ -61,3 +61,13 @@ $('#log-reg').click(function(){
             return false;
         }
 });
+
+
+var h =  window.innerHeight;
+var content  = document.getElementById('content')
+function hh (){
+	content.style.height = h + 'px';
+}
+window.onload =function (){
+	hh();
+}
