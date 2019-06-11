@@ -1,0 +1,111 @@
+<html>
+<head>
+<style>
+body{
+	background-image:url("images/info_background.png");
+	background-size:100% 100%; 
+
+}
+.info_1{
+	background-color:white;
+	width:90%;
+	background-size:100% 100%; 
+	border:2px solid #ffffff;
+	border-radius:25px;
+	margin-left:5%;
+	text-align:center;
+	margin-top:100px;
+}
+.info_1 img{
+	width:95%;
+	opacity:1;
+}
+.info_2{
+	background-color:#f9f9f9;
+	width:90%;
+	background-size:100% 100%; 
+	border:2px solid #f9f9f9;
+	border-radius:25px;
+	margin-left:5%;
+	text-align:center;
+	margin-top:20px;
+
+	height:700px;
+}
+.info_2 img{
+	width:95%;
+	opacity:1;
+}
+.back{
+	position:absolute;
+	top:140px;
+	right:90px;
+}
+.back img{
+	width:50px;
+}
+.show_1{
+	width:100%;
+	background-color:#ffffff;
+	border:2px solid #ffffff;
+	border-radius:25px;
+	padding:20px;
+	margin:0px;
+	margin-top:100px;
+	height:85px;
+	text-align:center;
+	font-size:45px;
+	line-height:85px;
+}
+.f1{
+	font-size:40px;
+	margin-top:25px;
+}
+.fun{
+position:absolute;
+top:760px;
+left:200px;
+}
+</style>
+</head>
+<body>
+<div class="show_1">
+个人首页
+<div class="back">
+<img src="images/back.png">
+</div>
+</div>
+<div class="info_1">
+<img src="images/info_3.png">
+</div>
+<div class="fun">
+<div class="f1">
+消息盒子
+</div></br>
+<div class="f1">
+我的收藏
+</div></br>
+<div class="f1">
+积分商城
+</div></br>
+<div class="f1">
+好评鼓励
+</div></br>
+<div class="f1">
+我的设置
+</div>
+</div>
+<div class="info_2">
+<img src="images/info_4.png">
+</div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+<script>
+$(".back").click(function(){
+	window.location.href="2.html";
+})
+$(".f1").click(function(){
+	window.location.href="null.html";
+})
+</script>
+</html>

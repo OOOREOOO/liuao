@@ -1,0 +1,72 @@
+<html>
+<head>
+<style>
+*{
+	font-family: PingFangSC-Regular, sans-serif;
+}
+body{
+	background-image:url("images/load.jpg");
+	background-size:100% 100%; 
+}
+.load{
+	background-color:#434242;
+	font-size:40px;
+	color:white;
+	width:140px;
+	float:right;
+	border:2px solid #434242;
+	border-radius:10px;
+	margin:40px;
+	padding:10px;
+}
+.name{
+	position:absolute;
+	bottom:170px;
+	text-align:center;
+	font-size:60px;
+	color:white;
+	width:100%;
+}
+.url{
+	position:absolute;
+	bottom:100px;
+	text-align:center;
+	font-size:40px;
+	color:white;
+	width:100%;
+}
+</style>
+</head>
+<body>
+<div class="load">
+跳过
+</div>
+<div class="name">
+城市快捷公交智能助手
+</div>
+<div class="url">
+www.busthrough.com
+</div>
+
+</body>
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+<script>
+x = 4
+function countSecond() 
+{　
+    if(x>0) {
+        x = x-1
+        $(".load").html("跳过&nbsp;"+x);
+        setTimeout("countSecond()", 1000)
+    }
+	else{
+		window.location.href="1.html";
+	}
+}
+$(".load").click(function(){
+window.location.href="2.html";
+})
+// 执行函数
+countSecond()
+</script>
+</html>
