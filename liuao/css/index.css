@@ -289,127 +289,125 @@
   background-size: contain;
   background-position: center;
 }
-#pagetwo .nav{
-    padding: 0 20px;
-    color: #9f9f9f;
-    font-size: 1.1em;
+#pagetwo .nav {
+  padding: 0 20px;
+  color: #9f9f9f;
+  font-size: 1.1em;
 }
-#pagetwo .main24{
-    background: #fff1de;
-    padding-top:8px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+#pagetwo .main24 {
+  background: #fff1de;
+  padding-top: 8px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-#pagetwo .main24-headright{
-    width: 18px;
-    height: 18px;
-    border-radius: 18px;
-    background-color: #000;
-    color: #e2dfe9;
-    text-align: center;
-    margin-left: 10px;
-    line-height: 18px;
+#pagetwo .main24-headright {
+  width: 18px;
+  height: 18px;
+  border-radius: 18px;
+  background-color: #000;
+  color: #e2dfe9;
+  text-align: center;
+  margin-left: 10px;
+  line-height: 18px;
 }
-#pagetwo .main24-headleft{
-    font-size: 1.3em;
-    color: #333;
+#pagetwo .main24-headleft {
+  font-size: 1.3em;
+  color: #333;
 }
-#pagetwo .main244{
-    background:#fff;
-    padding-top: 30px;
+#pagetwo .main244 {
+  background: #fff;
+  padding-top: 30px;
 }
-.main241{
-    width: 120px;
-    height: 120px;
-    background: #000;
-    background: url('../images/16.png')no-repeat;
-    background-size: contain;
-    /* padding-right: 50px; */
-    /* margin-right: 50px; */
+.main241 {
+  width: 120px;
+  height: 120px;
+  background: #000;
+  background: url("../images/16.png") no-repeat;
+  background-size: contain;
+  /* padding-right: 50px; */
+  /* margin-right: 50px; */
 }
-.main242{
-    width: 120px;
-    height: 120px;
-    background: #000;
-    background: url('../images/17.png')no-repeat;
-    background-size: contain;
-    margin-right: 20px;
+.main242 {
+  width: 120px;
+  height: 120px;
+  background: #000;
+  background: url("../images/17.png") no-repeat;
+  background-size: contain;
+  margin-right: 20px;
 }
-.main243{
-    width: 120px;
-    height: 120px;
-    background: #000;
-    background: url('../images/18.png')no-repeat;
-    background-size: contain;
+.main243 {
+  width: 120px;
+  height: 120px;
+  background: #000;
+  background: url("../images/18.png") no-repeat;
+  background-size: contain;
 }
-#pagetwo .box44{
-    text-align: center;
-    line-height: 50px;
-    color: #333;
-    margin-top: 50px;
-    margin-bottom: 10px;
+#pagetwo .box44 {
+  text-align: center;
+  line-height: 50px;
+  color: #333;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
-#pagetwo .box444{
-    margin-right: 50px;
+#pagetwo .box444 {
+  margin-right: 50px;
 }
-#pagetwo .box55{
-    color: #fc6060;
-    font-size: 1.3em;
+#pagetwo .box55 {
+  color: #fc6060;
+  font-size: 1.3em;
 }
-#pagetwo .main25{
-    margin-top: 20px;
-    margin-bottom: 100px;
+#pagetwo .main25 {
+  margin-top: 20px;
+  margin-bottom: 100px;
 }
-#pagetwo .box25{
-    width: 50%;
-    padding: 10px 20px;
-    border-left: 1px solid #dddddd;
-    padding-bottom: 20px;
+#pagetwo .box25 {
+  width: 50%;
+  padding: 10px 20px;
+  border-left: 1px solid #dddddd;
+  padding-bottom: 20px;
 }
-#pagetwo .box251{
-    font-size: 1.3em;
-    color: rgb(66, 66, 66);
-    margin-bottom: 20px;
+#pagetwo .box251 {
+  font-size: 1.3em;
+  color: rgb(66, 66, 66);
+  margin-bottom: 20px;
 }
-#pagetwo .box252{
-    color: #999999;
-    margin-bottom: 20px;
+#pagetwo .box252 {
+  color: #999999;
+  margin-bottom: 20px;
 }
-#pagetwo .box2531{
-    width: 150px;
-    height: 80px;
-    background: #000;
-    background: url('../images/19.png')no-repeat;
-    background-size: cover;
+#pagetwo .box2531 {
+  width: 150px;
+  height: 80px;
+  background: #000;
+  background: url("../images/19.png") no-repeat;
+  background-size: cover;
 }
-#pagetwo .box2532{
-    width: 150px;
-    height: 80px;
-    background: #000;
-    background: url('../images/20.png')no-repeat;
-    background-size: cover;
+#pagetwo .box2532 {
+  width: 150px;
+  height: 80px;
+  background: #000;
+  background: url("../images/20.png") no-repeat;
+  background-size: cover;
 }
-#pagetwo .box2533{
-    width: 150px;
-    height: 80px;
-    background: #000;
-    background: url('../images/21.png')no-repeat;
-    background-size: cover;
+#pagetwo .box2533 {
+  width: 150px;
+  height: 80px;
+  background: #000;
+  background: url("../images/21.png") no-repeat;
+  background-size: cover;
 }
-#pagetwo .box2534{
-    width: 150px;
-    height: 80px;
-    background: #000;
-    background: url('../images/22.png')no-repeat;
-    background-size: cover;
+#pagetwo .box2534 {
+  width: 150px;
+  height: 80px;
+  background: #000;
+  background: url("../images/22.png") no-repeat;
+  background-size: cover;
 }
-#pagetwo .b21{
-    /* border-bottom: 1px solid #ddd; */
-    border-top: 1px solid #ddd;
-
+#pagetwo .b21 {
+  /* border-bottom: 1px solid #ddd; */
+  border-top: 1px solid #ddd;
 }
-
 
 
 
@@ -418,9 +416,140 @@
 
 
 
+#pagethr #grid {
+  background: #fafafa;
+  padding-top: 20px;
+  /* margin-bottom: 100px; */
+}
+.grid-left{
+  width: 48%;
+  height: auto;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 3px;
+  background: #fff;
+}
+.grid-right{
+  width: 48%;
+  height: auto;
+  display: inline-block;
+  padding-right: 10px;
+padding-left: 3px;
+  background: #fff;
 
+  /* position: relative;
+  transform: translate(0,-50%); */
+}
+.item-p{
+  margin: 20px 10px;
+}
+.item-btn{
+  margin: 20px 10px;
+  font-size: 0.8em;
 
+}
+.item {
+  margin-bottom: 20px;
+  background-position: center;
+}
+.img30{
+  width: 100%;
+  height: 350px;
+  background: #000;
+  background: url('../images/35.png')no-repeat;
+  background-size: cover;
+  background-position: center;
 
+}
+.img32{
+  width: 100%;
+  height: 330px;
+  background: #000;
+  background: url('../images/34.png')no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.img34{
+  width: 100%;
+  height: 270px;
+  background: #000;
+  background: url('../images/33.png')no-repeat;
+  background-size: cover;  background-position: center;
+
+}
+.img36{
+  width: 100%;
+  height: 300px;
+  background: #000;
+  background: url('../images/32.png')no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.img38{
+  width: 100%;
+  height: 330px;
+  background: #000;
+  background: url('../images/31.png')no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.img31{
+  width: 100%;
+  height: 340px;
+  background: #000;
+  background: url('../images/30.png')no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.img33{
+  width: 100%;
+  height: 320px;
+  background: #000;
+  background: url('../images/29.png')no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.img35{
+  width: 100%;
+  height: 300px;
+  background: #000;
+  background: url('../images/28.png')no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img37{
+  width: 100%;
+  height: 330px;
+  background: #000;
+  background: url('../images/27.png')no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.img39{
+  width: 100%;
+  height: 290px;
+  background: #000;
+  background: url('../images/26.png')no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.thr-head{
+  font-size: 1.7em;
+  padding: 20px 30px;
+  font-weight: 600;
+  color: #444;
+}
+.thr-nav{
+  padding: 10px 40px 20px 40px;
+  font-size: 1.2em;
+}
 
 
 #pagefor .main1 {
@@ -435,7 +564,7 @@
   background-size: contain;
 }
 #pagefor .main1-right {
-  padding-right: 70px;
+  padding-right: 40px;
   padding-top: 20px;
 }
 #pagefor .top1 {
@@ -501,8 +630,9 @@
 #pagefor .main44 {
   width: 90%;
   margin: 0% auto;
-  padding: 5px;
+  padding: 12px;
   border-bottom: 1px solid #333;
+  font-size: 1.1em;
 }
 #pagefor .icon5 {
   width: 15px;
@@ -512,4 +642,34 @@
   background-size: contain;
   vertical-align: middle;
   margin-right: 20px;
+}
+
+
+
+
+@media screen and (max-width:480px) {
+  .main241 {
+    width: 80px;
+    height: 80px;
+    background: #000;
+    background: url("../images/16.png") no-repeat;
+    background-size: contain;
+    /* padding-right: 50px; */
+    /* margin-right: 50px; */
+  }
+  .main242 {
+    width: 80px;
+    height: 80px;
+    background: #000;
+    background: url("../images/17.png") no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+  }
+  .main243 {
+    width: 80px;
+    height: 80px;
+    background: #000;
+    background: url("../images/18.png") no-repeat;
+    background-size: contain;
+  }
 }
