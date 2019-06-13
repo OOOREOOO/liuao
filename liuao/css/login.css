@@ -1,86 +1,148 @@
-@font-face {font-family: 'webfont';
-    src: url('//at.alicdn.com/t/webfont_iduiegac2t.eot'); /* IE9*/
-    src: url('//at.alicdn.com/t/webfont_iduiegac2t.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('//at.alicdn.com/t/webfont_iduiegac2t.woff') format('woff'), /* chrome、firefox */
-    url('//at.alicdn.com/t/webfont_iduiegac2t.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url('//at.alicdn.com/t/webfont_iduiegac2t.svg#NotoSansHans-DemiLight') format('svg'); /* iOS 4.1- */
-  }
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC|Poppins');
-body{
-    height: 1000px;
-    font-family: 'Noto Sans SC', sans-serif;
-    /* background: linear-gradient(to top , #3E12C7 , #0C9790) */
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+HK:300,400|Noto+Sans+SC|Noto+Serif+SC&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans SC", sans-serif;
 }
-.middle{
-    width: 80%;
-    position: fixed;
-    left: 50%;
-    top: 400px;
-    transform: translate(-50%,-50%);
+
+body {
+  width: 100%;
+  height: 1000px;
+  background-color: #333;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  background-size: cover;
+  /* background-position: center; */
+}
+.main {
+  margin: 0 auto;
+  width: 90%;
+}
+.logo {
+  height: 120px;
+  width: 100px;
+  background-color: #fff;
+  background: url("../images/logo.jpg.png") no-repeat;
+  background-size: 120%;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.textbox,
+.passwordbox {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+}
+.textbox1{
+  width: 50px;
+  display: inline-block;
+  height: 50px;
+  background-color: #fff;
+  border: 2px solid #ffe;
+  background: url("../images/1 (1).png") no-repeat;
+  background-size: 50%;
+  background-position: center;
+
+}
+.textbox1,
+.password1 {
+  width: 50px;
+  display: inline-block;
+  height: 50px;
+  background-color: #fff;
+  border: 2px solid #ffe;
+  background: url("../images/49.png") no-repeat;
+  background-size: 50%;
+  background-position: center;
+  border-radius: 100px 0 0 100px;
+}
+
+#username,
+#password {
+  width: 80%;
+  height: 50px;
+  border: 2px solid #ffe;
+  background: none;
+  border-left: none;
+  border-radius: 0 100px  100px 0;
+
+}
+form .psb {
+  margin-top: 10px;
+}
+form .psb1 {
+  background: #000;
+  background: url("../images/50.png") no-repeat;
+  background-size: 50%;
+  background-position: CENTER;
+}
+input::-webkit-input-placeholder {
+  color: #f5f5f5;
+  text-indent: 15px;
+  font-size: 1.1em;
+  font-family: "siyuan";
+}
+.regbox {
+  text-align: center;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  font-family: "Noto Serif SC", serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.login {
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50px;
+  line-height:32px;
+  width: 150px;
+  height:32px;
+  border: 2px solid #f3f3f3;
+  font-size: 1.2em;
+  font-family: "Noto Serif SC", serif;
+  color: aliceblue;
+}
+.linebox{
+    margin-top: 20px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-
+    justify-content: space-between;
+    align-items: center;
+    color: #e4e4e4;
+    font-family: "Noto Serif SC", serif;
 }
-.logo{
-    /* background-color: #fff; */
-    width: 200px;
-    height: 200px;
-    background-image: url("../images/logo.jpg.png");
-    background-size: cover;
-    transform: scale(0.8);
+.line{
+    min-width: 30%;
+    height: 2px;
+    background-color: #fff;
+}
+.line-logo{
+    width: 50%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.blocks{
-    /* display: block; */
-    margin: 0 auto;
-    background: transparent;
-    border: none;
-    border-bottom: 2px solid #f5edf0;
+.wechat{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    background:url('../images/icon1.png') no-repeat;
+    background-size: contain;
 }
-.log{
-    /* margin-top: 200px; */
-    margin:  0 auto;
+.qq{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    background:url('../images/icon2.png') no-repeat;
+    background-size: contain;
 }
-i{
-    display: inline-block;
-    vertical-align: bottom;
-    color: #fff;
-    font-size: 1.1em;
-    margin-right: 20px;
-}
-.password i{
-    margin-right: 36px;
-}
-input{
-
-    padding: 20px;
-    padding-left: 10px;
-    text-align: center;
-}
-.login{
-    width: 80%;
-    margin: 50px auto;
-    background-image: linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%);    
-    padding: 10px 20px;
-    border: none;
-    font-size: 1.5em;
-    font-family: 'Noto Sans SC', sans-serif;
-    border-radius: 10px;
-    color: #2c3e50;
-}
-.last{
-    position:fixed;
-    bottom: 10%;
-    width: 90%;
-    color: #fff;
-    left: 50%;
-    transform: translate(-50%,0);
-}
-.forget{
-    float: left;
-}
-.signin{
-    float: right;
+.check{
+  margin-left: 20px;
+  color: #ebebebb4;
 }
