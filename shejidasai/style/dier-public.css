@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{ margin:0; padding:0;}
+a{ text-decoration:none;}
+img{ border:none;}
+ul,li,ol,dl{ list-style:none; line-height:25px;}
+body{ font-family:"Microsoft YaHei","simsun";}
