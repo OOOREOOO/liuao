@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style media="screen">
+    span{
+      display:inline-block;
+      width:100px;
+      height:50px;
+    }
+    body{
+      width:2000px;
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <!-- 通过for循环来输出图形
+  这个for循环执行了几次，图形的高度就是多少
+  他可以用来控制图形的高度 -->
+
+
+
+  <script type="text/javascript">
+    // function list(x) {
+    //   for (var i = 0; i < x; i++) {
+    //     document.write('*****</br>');
+    //   }
+    // }
+    //
+    //
+    // window.onload =function{
+    //   list(10);
+    // }
+
+    // document != Document
+
+    // for(var i=0; i<5 ;i++){
+    //   // 再循环的内部再创建一个循环，用来控制图形的宽度
+    //   // 目前我们的外部的for循环执行一次，内部的就会执行五次
+    //   // 内层循环可以来决定图形的宽度，执行几次图形的宽度就是多少
+    //   for (var j = 0; j < 5-i; j++) {
+    //     document.write("* &nbsp &nbsp &nbsp &nbsp");
+    //   }
+    //
+    //   //输出一个换行
+    //   document.write('</br>');
+    // }
+
+
+
+    // for (var i = 1; i < 10; i++) {
+    //   for (var j = 1; j < i+1;j++) {
+    //     document.write("<span>"+j+"*"+i +"=" +i*j +"</span>");
+    //   }
+    //   document.write('</br>');
+    // }
+
+
+
+
+    // 1-100的质数练习
+
+      // 在程序执行前，开启计时器
+      // console.time('计数器的名字')可以用来开启一个计数器
+      // 他需要一个字符串作为参数，这个字符串将会作为计数器的标识
+    console.time('text');
+
+    for (var i = 2; i <= 100; i++) {
+      var flag = true;
+      // document.write(i + '<br>');
+      for (var j = 2; j <= Math.sqrt(i) ; j++) {
+        if (i % j == 0) {
+          var flag =false;
+          // 一旦进入判断，则证明i不可能是质数了，此时循环在执行已经没有意义了
+          // 使用break来结束循环
+          break;
+        }
+      }
+      if(flag){
+        // document.write(i+'</br>');
+      }
+    }
+
+    // console.timeEnd(''); 用于停止一个计时器，需要一个计时器的名字作为参数
+    console.timeEnd('text');
+
+
+
+
+
+
+  </script>
+</body>
+
+
+</html>
