@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			
+			//onload事件会在整个页面加载完成之后才触发
+			//	为window绑定onload事件
+			//		该事件对应的响应函数将会在页面加载完成之后执行。
+			//		这样可以确保我们的代码执行所有的DOM
+			
+			window.onload = function() {
+				var btn = document.getElementById("btn");
+				btn.onclick = function() {
+					alert("hello world");
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+
+		<button id="btn">lalala我是一个按钮</button>
+		<script type="text/javascript">
+			//			var btn = document.getElementById("btn");
+			//			
+			//			btn.onclick = function (){
+			//				alert("hello world");
+			//			}
+
+			/*浏览器在加载一个页面时。是按照自上向下的顺序加载的
+			 * 读取到一行加载一行，如果将script便签写到页面的上边，
+			 * 在代码执行时，页面还没有加载
+			 * 
+			 * 将js代码编写到页面的下部就是为了，可以在页面加载完毕以后在执行js代码
+			 */
+		</script>
+	</body>
+
+</html>

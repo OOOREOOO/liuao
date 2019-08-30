@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			//Math
+//				-Math和其他的对象不同，他不是一个构造函数
+//				它属于一个工具类不用创建对象,他里面封装了数学运算相关的属性和方法
+//				全大写表示属性(常量) 。小写表示方法();
+//			比如
+//				Math.PI 表示圆周率
+
+			
+			
+			console.log(Math.PI);
+			
+//			abs()可以计算一个数的绝对值
+			console.log(Math.abs(-20));
+			
+			
+			//Math.ceil()
+//				可以对一个数向上取整,小数位只要有值就自动进 1
+			console.log(Math.ceil(1.01));
+			
+			//Math.floor()
+//				可以对一个数向下取整，小数部分会被舍掉
+			console.log("这是floor" + Math.ceil(1.99));
+			//Math.round()
+			//可以对一个数四舍五入取整
+			console.log(Math.round(1.5));
+
+			
+			
+//			Math.random()
+			for (i=0 ;i<10; i++) {
+//				console.log(Math.random());
+//				document.write(Math.random() + "</br>")；
+				console.log(Math.round(Math.random()*10));
+				document.write(Math.round(Math.random()*9)+1 +"</br>")
+			}
+			console.log(Math.round(Math.random()*10));
+			
+//			如果要生成x-y之间的随机数
+//				Math.round(Math.random()*(y-x))+x;
+//				Math.round(Math.random()*(y-x) +x); 
+			
+//			max() 可以获取多个数中的最大值.
+//			min() 可以获取多个数中的最小值.
+
+			var max = Math.max(10 ,45 , 30 ,100);
+			
+//			console.log("最大值是" +max  "最小值是" +min);
+			console.log("最大值是" +max);
+			
+			
+//			Math.pow(x,y)
+//				返回x的y次幂
+
+	
+			console.log(Math.pow(2,3));
+			
+//			Math.sqrt();
+//			用于对一个数进行开方运算
+			console.log(Math.sqrt(8));
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

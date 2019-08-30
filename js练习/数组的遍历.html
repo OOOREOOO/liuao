@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+<!-- 		<script type="text/javascript">
+			//创建一个数组
+			var arr = ['孙悟空', "猪八戒", "沙和尚" ,"唐僧"];
+
+			//所谓遍历数组,就是将数组中所有的元素都取出来
+			// console.log(arr[0]);
+			// console.log(arr[1]);
+			// console.log(arr[2]);
+			// console.log(arr[3]);
+			// 
+			
+			for(var i =0 ; i<arr.length ;i++){
+				console.log(arr[i]);
+			}
+		</script> -->
+	</head>
+	<body>
+		
+		<script type="text/javascript">
+			
+			function Person(name ,age ){
+				this.age = age,
+				this.name = name;
+			}
+			
+			// Person.prototype.toString() = function(){
+			// 	return "Person[name="+this.name+",age="+this.age+"]";
+			// }
+			// 
+			
+			//创建Person对象的实例
+			var per= new Person("孙悟空" ,18);
+			var per1 = new Person("猪八戒" ,38);
+			var per2 = new Person("红孩儿" ,8);
+			var per3 = new Person("蜘蛛精" ,16);
+			var per4 = new Person("二郎神" ,24);
+			
+			
+			var perArr  = [per , per1 ,per2 ,per3 ,per4]
+			// console.log(perArr);
+			
+			//创建一个函数,可以将perArr中的满18岁的Person提取出来
+				//然后封装到一个新的数组并返回
+			// arr 
+			// 	形参.要提取信息的数组
+				
+			function getAdult(arr){
+				var newArr = [];
+				
+				// for( var i=0; i<arr.length , i++ ) {
+				// 	if(age >=18){
+				// 		newArr.push(arr[i]);
+				// 		console.log(arr[i]);
+				// 	}
+				// }
+				for (var i =0; i<arr.length ; i++) {
+					var p = arr[i];
+					if( p.age >=18){
+						newArr.push(p);
+						// console.log(arr[i]);
+					}
+				}
+				return newArr;
+			}
+			
+			var result = getAdult(perArr);
+			console.log(result);
+			
+		</script>
+	</body>
+</html>

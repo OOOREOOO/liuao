@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			//电子邮件	
+				/*
+				 * hello @ abc.com
+				 * 
+				 * 
+				 * 任意的字母数字下划线   . 任意的字母数字下划线  @ 任意字母数字  . 任意字母(2-5位) . 任意字母(2-5位)
+				* 
+				* \w{3,}   (\.\w+)*  @  [A-z0-9]+   (\.[A-z]{2,5}){1,2}
+				* 
+				* 
+				* 
+				* 
+				* 
+				* */
+				
+			
+			var emailReg = /^\w{3,}(\.\w+)*@[A-z0-9]+(\.[A-z]{2,5}){1,2}$/;
+			
+			var email = "834060266@qq.com-7";
+			
+			console.log(emailReg.test(email));
+			
+			
+		</script>
+	</head>
+	<body>
+		
+		
+	</body>
+</html>
