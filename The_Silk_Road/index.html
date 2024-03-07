@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.css">
+	<link rel="stylesheet" href="css/mycss.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<title>丝路行数字展</title>
+</head>
+
+<body>
+ 
+	<div class="container-fluid">
+	</div>
+
+	<div class="kongge">
+		  <div class="row">
+
+  </div>
+		<div class="dm3" id="dm3"></div>
+		<div class="dm1" id="dm1">
+			<p style="color: whitesmoke;">真棒！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;打卡打卡！
+			</p>
+		</div>
+		<div class="dm2" id="dm2">
+			<p style="color: whitesmoke;">很有趣！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;到此一游~
+			</p>
+		</div>
+		<div class="dm1" id="dm1">
+			<p style="color: whitesmoke;">大漠孤烟直，长河落日圆&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;无数铃声遥过碛，应驮白练到安西
+			</p>
+
+		</div>
+		<div class="dm2" id="dm2">
+
+			<p style="color: whitesmoke;">不是张骞通西域，安有佳种自西来？</p>
+		</div>
+
+
+	</div>
+
+
+	<!-- 广告 -->
+
+	<div class="container_mid">
+		<!-- 内容二 分两栏			 -->
+		<div class="container_center row align-items-end">
+			<div class="coll1 col-7 col-md-12 d-flex flex-column" >
+				<video width="100%" height="100%" controls>
+					<source src="images/kaichang.mp4" type="video/mp4">
+				</video>
+			</div>
+
+			<div class="coll2 col-lg-5 col-md-12">
+				<h2 style="color: whitesmoke;">留下你的足迹吧！</h2>
+				<p style="color: whitesmoke;">你还记得那些和丝绸之路有关的诗词呢？一起写下来欣赏吧
+				</p>
+				<div class="container-liuyan">
+					<form id="myForm">
+						<div class="form1">
+							<div class="coll4 col-2">
+								<label for="fname">昵称</label>
+							</div>
+							<div class="coll8 col-10">
+								<input type="text" id="fname" name="firstname" placeholder="取名"
+									style="padding: 5px 5px; resize: none">
+							</div>
+						</div>
+
+						<div class="form2">
+							<div class="coll4 col-2">
+								<label for="subject">内容</label>
+							</div>
+							<div class="coll10 col-12">
+								<textarea id="subject" name="subject" placeholder="你的感受……"
+									style="padding: 5px 5px; resize: none;  width: calc(100%);"></textarea>
+							</div>
+						</div>
+						<div class="row_sup">
+							<input type="button" value="发送" onclick="submitForm()">
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+
+		 <!-- 遮罩层 -->
+<div class="overlay" id="overlay"  onclick="hideOverlay()" >
+    <div class="centered-container">
+        <!--  这里添加你的图形或者其他内容 -->
+        	<img src="images/Group 278.png" style="width: 450px; height: 650px;">
+
+    </div>
+    </div>
+
+		<script>
+
+function hideOverlay() {
+            // 隐藏遮罩层
+            document.getElementById("overlay").style.display = "none";
+            // 重置表单
+            document.getElementById("myForm").reset();
+        }
+
+			function submitForm() {
+				// 获取表单数据
+				var name = document.getElementById("fname").value;
+				var message = document.getElementById("subject").value;
+
+				// 构建要显示的文本
+				var submittedText = name + ":" + message;
+
+				// 将数据插入到页面中
+				document.getElementById("dm3").innerHTML = submittedText;
+				 // 显示遮罩层
+                document.getElementById("overlay").style.display = "block";
+			} 
+
+
+
+		</script>
+
+
+
+
+
+
+
+		<!-- 内容开始 -->
+		<div class="container_bottom">
+			<!-- <h3>请选择观展路线</h3> -->
+			<div class="content">
+				<!-- 内容三 -->
+				<!-- 标题 -->
+
+				<!-- 一栏 -->
+				<div class="card">
+					<a href="https://www.kujiale.com/xiaoguotu/pano/3FOA95Y311R8" target="_blank">
+						<img class="card-img-top" src="images/2.jpg" alt="Card image" style="width:100%">
+					</a>
+					<div class="card-body">
+						<h4 class="card-title"><a href='https://www.kujiale.com/xiaoguotu/pano/3FOA95Y311R8'
+								target='_blank'>文明大观·丝路之行</h4>
+						<p class="card-text">
+							<a href="	https://www.kujiale.com/xiaoguotu/pano/3FOA95Y311R8" target="_blank">
+								一条横贯中亚、联系欧亚州的交通大道,大量的中国丝织品由此通道西运,这条交通大道被称为“丝绸之路”。
+							</a>
+						</p>
+					</div>
+				</div>
+				<!-- 二栏 -->
+				<div class="card">
+					<a href="pintu.html" target="_blank">
+						<img class="card-img-top" src="images/3.jpg" style="width:100%">
+					</a>
+					<div class="card-body">
+						<h4 class="card-title"><a href="pintu.html"
+								target='_blank'>奔流文化·器物</h4>
+						<p class="card-text">
+							<a href="pintu.html" target="_blank">
+								‘数字丝绸之路’体现了中国发展数字基础设施的目标，有助于中东、北非地区教育、医疗、交通、农业和服务业的发展。
+							</a>
+						</p>
+					</div>
+				</div>
+				<!-- 三栏 -->
+				<div class="card">
+					<a href="https://kuxiaoju-custom.kulchao.com/museum/#/CloudShop/show/museum/4b602ba4aefebd75a9cb1ec50768618b"
+						target="_blank">
+						<img class="card-img-top" src="images/4.jpg" alt="Card image" style="width:100%">
+					</a>
+					<div class="card-body">
+						<h4 class="card-title"><a
+								href='https://kuxiaoju-custom.kulchao.com/museum/#/CloudShop/show/museum/4b602ba4aefebd75a9cb1ec50768618b'
+								target='_blank'>丝蕴古今·云裳</h4>
+						<p class="card-text">
+							<a href="https://kuxiaoju-custom.kulchao.com/museum/#/CloudShop/show/museum/4b602ba4aefebd75a9cb1ec50768618b"
+								target="_blank">
+								丝绸之路的兴起，不仅使西方获得了丝绸制品，也使其学到了穿梭于经纬线中的纺织技术，见证了东西方纺织技术的交融。
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<script type="text/javascript">
+
+			var isearch = document.getElementById('isearch');
+			var ad1 = document.getElementById('ad1');
+
+			isearch.onclick = function () {
+				window.open("http://search.people.com.cn/");
+			};
+			ad1.onclick = function () {
+				window.open("http://www.ssofair.com/");
+			};
+
+
+
+		</script>
+</body>
+
+</html>

@@ -1,0 +1,696 @@
+*{
+  margin: 0;
+  padding: 0;
+  font: normal 16px/180% "思源黑体";
+  color: #152575;
+  /* text-align: center;
+  background: #fff; */
+}
+/* .white{
+  color: rgb(255, 255, 255);
+} */
+/*a{
+   color: #C08943;
+}*/
+
+.kongge{
+
+
+    display: block;
+    text-align: center;
+    margin: 5% 10% 0px 10%;
+}
+
+
+.top_nav {
+    background: #e60012;
+    width: 100%;
+    height: 60px;
+    min-width: 1000px;
+}
+.nav_box{
+    margin:  0 auto;
+    width: 60%;
+    line-height: 60px;
+}
+#login{
+  color: white;
+}
+
+.container-fluid{
+  margin:  0 auto;
+  width: 100%;
+}
+  .fl{
+    padding: 0.5px;
+    line-height: 60px;
+    display: inline-block;
+    float:left;
+  }
+  .fr{
+    padding: 0.5px;
+    line-height: 60px;
+    display: inline-block;
+    float:right;
+  }
+
+.nav_box a:link,.nav_box a:visited{
+    color:white;
+    text-decoration:none;
+  }
+.nav_box a:hover{
+    color:white;
+    text-decoration:underline;
+  }
+
+.container-fluid{
+  /*图片地址 不重复 水平位置居中 垂直位置居中*/
+  background: url(../images/1.jpg) no-repeat top center;
+  height: 150%;
+  width: 100%;
+            /*把背景图片放大到适合元素容器的尺寸，图片比例不变*/
+  background-size:cover;
+  position:absolute;
+  left:0;
+  top:0;
+  /* background-color: rgb(226, 226, 226); */
+}
+.nav-photo{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(117, 15, 242);
+  background: url(http://zj.people.com.cn/img/LOCAL/2016/09/112887/images/zhejiang.jpg) no-repeat top center;
+}
+.banner .logo {
+    float:left;
+    top: 60px;
+    left: 0;
+    font-family: "微软雅黑","Microsoft YaHei";
+    font-size: 32px;
+    font-weight: normal;
+    color: #e30116;
+}
+/* .image1{
+    float:right;
+    background: url("images/1.jpg")
+} */
+
+.nav-list{
+  width: 100%;
+  background-color: #047770;
+}
+.nav-list ul li{
+  list-style: none;
+  display: block;
+  height: 50px;
+}
+.nav-list ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.nav-list a:link ,.nav-list a:hover{
+  color: #fff;
+}
+.nav-list a{
+  line-height: 50px;
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+  color: white;
+}
+#last{
+  border: none;
+}
+
+
+
+#keyword{
+  height: 35px;
+  width: 200px;
+  /* background-color: black; */
+  text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 12px Arial #c6c6c6;
+}
+.right_sea{
+  width:40px;
+  display: inline-block;
+  /* background-color: white; */
+}
+.ad1{
+  width: 50px;
+  height: 110px;
+  background-color: rgb(36, 131, 2);
+  margin-top: 20px;
+  background-size: contain;
+}
+
+.dm1
+{
+	width:600px;
+	height:20px;
+
+	position:relative;
+	animation-name:myfirst;
+	animation-duration:5s;
+	animation-timing-function:linear;
+	animation-delay:0s;
+	animation-iteration-count:infinite;
+	/* Safari and Chrome: */
+	-webkit-animation-name:myfirst;
+	-webkit-animation-duration:5s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:0s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:normal;
+	-webkit-animation-play-state:running;
+	
+}
+
+@keyframes myfirst
+{
+	0%   { opacity:0; left:0px; top:0px;}
+	30%  {opacity:1;}
+	80%  {opacity:1;}
+	100% { opacity:0; left:1000px; top:0px;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+	0%   { opacity:0; left:0px; top:0px;}
+	30%  {opacity:1;}
+	80%  {opacity:1;}
+	100% { opacity:0; left:1000px; top:0px;}
+}
+
+
+.dm2
+{
+	width:300px;
+	height:20px;
+	
+	position:relative;
+	animation-name:myfirstt;
+	animation-duration:7s;
+	animation-timing-function:linear;
+	animation-delay:0s;
+	animation-iteration-count:infinite;
+	animation-direction:normal;
+	animation-play-state:running;
+	/* Safari and Chrome: */
+	-webkit-animation-name:myfirst;
+	-webkit-animation-duration:7s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:0s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:normal;
+	-webkit-animation-play-state:running;
+	
+}
+@keyframes myfirstt
+{
+	0%   { opacity:0; left:10px; top:0px;}
+	30%  {opacity:1;}
+	80%  {opacity:1;}
+	100% { opacity:0; left:1000px; top:0px;}
+}
+
+@-webkit-keyframes myfirstt /* Safari and Chrome */
+{
+	0%   { opacity:0; left:10px; top:0px;}
+	30%  {opacity:1;}
+	80%  {opacity:1;}
+	100% { opacity:0; left:1000px; top:0px;}
+}
+
+.dm3
+{
+	width:300px;
+	height:20px;
+	color:red;
+	position:relative;
+	animation-name:myfirsttt;
+	animation-duration:8s;
+	animation-timing-function:linear;
+	animation-delay:0s;
+	animation-iteration-count:infinite;
+	animation-direction:normal;
+	animation-play-state:running;
+	/* Safari and Chrome: */
+	-webkit-animation-name:myfirst;
+	-webkit-animation-duration:8s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:0s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:normal;
+	-webkit-animation-play-state:running;
+	
+}
+@keyframes myfirsttt
+{
+	0%   { color:red;opacity:0; left:10px; top:0px;}
+	30%  {color:red;opacity:1;}
+	80%  {color:red;opacity:1;}
+	100% { color:red;opacity:0; left:1000px; top:0px;}
+}
+
+@-webkit-keyframes myfirsttt /* Safari and Chrome */
+{
+	0%   { color:red;opacity:0; left:10px; top:0px;}
+	30%  {color:red;opacity:1;}
+	80%  {color:red;opacity:1;}
+	100% {color:red; opacity:0; left:1000px; top:0px;}
+}
+
+
+.col-8{
+	position: left;
+}
+
+
+h1{
+  margin: 0 auto;
+  font-weight: bold;
+
+}
+h1 a{
+  font-family: "微软雅黑","Microsoft YaHei";
+    font-size: 36px;
+    text-align: center;
+    line-height: 38px;
+    padding: 0px 0 10px 0;
+}
+
+.span-box{
+  margin: 0 auto;
+}
+.img8{
+  margin-top: 20px;
+  height: 400px;
+  background-color: rgb(69, 65, 64);
+  background: url("images/02.jpg") no-repeat;
+  background-size: contain;
+}
+.row a{
+  color: rgb(46, 46, 46);
+}
+h6 a{
+  line-height: 30px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+}
+
+.ul2{
+  border-top: 1px solid #c6c6c6;
+}
+
+h3{
+	font-color:white;
+float: left;
+  font-size: 24px;
+height: 30px;
+line-height: 30px;
+padding: 16px 0;
+}
+h3 a{
+  font-color:rgb(190, 117, 7);
+  font-size: 24px;
+height: 30px;
+line-height: 30px;
+padding: 16px 0;
+}
+
+
+a:hover{
+  color: gray;
+}
+
+h4{
+  font: "隶书";
+  font-size:18px;
+  
+  line-height: 30px;
+  padding: 0 20px;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+h4 a{
+   font-family: "隶书";
+  font-size:20px;
+  color: #C08943;
+  line-height: 40px;
+  padding: 0 20px;
+  display: block;
+  
+  text-align: center;
+}
+.container{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  position: center;
+  /*align-items: flex-start;*/
+}
+.card{
+  margin: 10px;
+  	border-radius:  1rem;
+  	    border: 0;
+}
+
+.card-img-top{
+
+  	border-radius: 1rem 1rem 0 0;
+}
+
+.card-text{
+	text-align: left;
+
+}
+
+.card-body{
+  background-color: #f1f1f1;
+  border-radius: 1rem;
+}
+p a{
+  color: #646464;
+}
+p a:hover{
+  color: #646464;
+}
+
+
+.footer{
+  overflow: hidden;
+    background: #f7f7f7;
+    padding: 20px 0;
+    margin-top: 300px;
+    text-align: center;
+    width: 100%;
+    min-width: 1000px;
+}
+.bottom_nav {
+  padding: 15px 0 10px 0;
+width: 1000px;
+margin: 0 auto;
+}
+.fenzhan{
+      display: table;
+      width: 1000px;
+}
+
+.bottom_nav strong {
+    float: left;
+    color: black;
+    font-weight: normal;
+    display: block;
+    width:75px;
+    height: auto;
+}
+.place {
+    float: left;
+    margin-right: 15px;
+    padding-right: 10px;
+    border-left: 1px solid #d5d5d5;
+    padding-left:10px;
+    line-height: 200%;
+    font-size: 12px;
+    height: 72px;
+    text-align: left;
+
+}
+.place a{
+    color: black;
+    margin-left: 5px;
+}
+.nation {
+    float: left;
+    margin-right:2px;
+    padding-right: 20px;
+    border-left: 1px solid #d5d5d5;
+    padding-left:10px;
+    line-height: 1%;
+    font-size: 12px;
+    height: 42px;
+    text-align: left;
+}
+.nation a{
+    color: black;
+      margin-left: 5px;
+}
+
+.you {
+    float: left;
+    margin-right: 5px;
+    padding-right: 10px;
+    border-left: 1px solid #d5d5d5;
+    padding-left:10px;
+    line-height: 1%;
+    font-size: 12px;
+    height: 24px;
+    text-align: left;
+}
+.you a{
+    color: black;
+}
+
+.lianjie{
+  width: 970px;
+  border-top: 1px solid #d5d5d5;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-top:30px;
+  text-align: center;
+  height: auto;
+  line-height: 28px;
+  color: #000;
+  font-family: 'SimSun';
+  min-width: 800px;
+}
+
+.lian1{
+  left: -25%;
+  transform: translate(-50%;0)
+}
+
+
+
+input[type=button1] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+input[type=button1]:hover {
+  background-color: #45a049;
+}
+
+
+	/* 下面是留言部分 */
+
+input[type=button] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=button]:hover {
+  background-color: #45a049;
+}
+
+.container-liuyan {
+  border-radius: 5px;
+
+
+}
+
+.container_bottom{
+	margin-top:2%;
+}
+
+
+/* 清除浮动 */
+.row-liuyankuang:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.p{
+      font-size: 52px;
+      font-family: "微软雅黑","Microsoft YaHei";
+}
+
+.container_center{
+  display: -webkit-flex; /* Safari */   
+  display: flex; /* Standard syntax */
+  /* border: 1px solid #808080; */
+  position: 10%;
+}
+.container_center div {
+  /* padding: 10px;  background: #dbdfe5;
+  -webkit-flex: 1; /* Safari */
+  -ms-flex: 1; /* IE 10 */
+  flex: 1; /* Standard syntax */
+
+} */
+.container_center div.bg-alt{
+  background: #b4bac0;
+}
+ 
+.container_mid{
+  padding: 1% 13% 0 13%;
+  height: 500px; /* 设置容器的固定高度为500px */
+}
+
+
+
+.card{
+  width: 33%;
+  box-shadow:3px 3px 12px #262626;
+}
+
+.content{
+  width: 100%;
+  display: -webkit-flex; /* Safari */   
+  display: flex; /* Standard syntax */
+  /* border: 1px solid #808080; */
+  position: 10%;;
+}
+.content div.bg-alt{
+  background: #b4bac0;
+}
+
+
+/* form1 和 form2 的样式 */
+.form1, .form2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* form1 的标签样式 */
+.form1 label {
+  flex: 0 0 25%;
+  color: whitesmoke;
+}
+
+/* form1 的输入框样式 */
+.form1 input {
+  flex: 1 1 auto;
+  width: 50%;
+}
+/* form2 的标签样式 */
+.form2 label {
+  flex: 0 0 25%;
+  color: whitesmoke;
+  text-align: left;
+}
+
+/* form2 的文本区域样式 */
+.form2 textarea {
+  flex: 1 1 auto;
+}
+.coll2{
+  padding: 60px 20px 0 40px ;
+}
+.coll1 {
+    padding: 40px 30px 0 25px;
+}
+
+.form1 input{
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 50px;
+}
+.form2 textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 115%;
+}
+.coll2 div{
+  padding: 5px;
+  margin-top: 10px;
+}
+
+/*响应式布局 layout - 在屏幕宽度小于 600px 时， 设置为上下堆叠元素 */
+
+@media screen and (max-width:500px){ 
+  .container_top {
+    margin-top:30px;
+  }
+}
+/* row_sup 中的按钮样式 */
+.row_sup input[type="button"] {
+  background-color: #ffa500;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+}
+
+/* 按钮悬停时的样式 */
+.row_sup input[type="button"]:hover {
+  background-color: #ff8c00;
+}
+
+.card {
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+
+@media screen and (min-width: 1920px) {
+  .container_center {
+    margin-bottom: 9%;
+  }
+}
+
+ /* 添加样式以实现遮罩层效果 */
+ .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6); /* 黑色背景，透明度为30% */
+            z-index: 999; /* 确保遮罩层位于其他元素之上 */
+            display: none; /* 初始状态下隐藏遮罩层 */
+ }
+ 
+.centered-container {
+    display: flex;
+    justify-content: center; /* 左右居中 */
+    align-items: center; /* 上下居中 */
+    width: 100%;
+    height: 100%;
+}
+	/* 上面是留言部分 */

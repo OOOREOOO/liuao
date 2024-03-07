@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.css">
+	<link rel="stylesheet" href="css/mycss.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<title>拼图游戏</title>
+	<style type="text/css">
+	#div1 {}
+
+	.container-fluid {
+	    background-image: url('images/Group 284.jpg'); /* 添加背景图片 */
+	    background-size: cover; /* 让背景图片填充整个容器 */
+	}
+
+
+	.grid-container {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(3, 150px); /* 将列的数量固定为3，每列宽度为150px */
+        background-image: url('images/Group 283.png'); /* 替换 'your-image-url.jpg' 为你的图片路径 */
+    background-size: cover; /* 让背景图片填充整个容器 */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1px;
+    width: 604px; /* 设置容器宽度 */
+    height: 604px; /* 设置容器高度 */
+
+		}
+
+	.grid-item {
+ 		 background-color: rgba(255, 255, 255, 0);
+
+
+    font-size: 30px;
+    text-align: center;
+    width: 200px; /* 设置宽度为150px，与img的宽度相同 */
+    height: 200px; /* 设置高度为150px，与img的高度相同 */
+    margin: auto; /* 居中对齐 */
+		}
+
+
+
+	</style>
+	<script>
+		function allowDrop(ev)
+		{
+		ev.preventDefault();
+		}
+
+		function drag(ev)
+		{
+		ev.dataTransfer.setData("Text",ev.target.id);
+		}
+
+		function drop(ev)
+		{
+		ev.preventDefault();
+		var data=ev.dataTransfer.getData("Text");
+		ev.target.appendChild(document.getElementById(data));
+		var targetDiv = ev.target;
+   		 if (targetDiv.id === "div1") {
+        // 如果目标 div 是 div1，则将拖动的图片放置到该 div 中
+        targetDiv.appendChild(draggedImg);
+        // 调整图片位置，使其居中显示
+        var offsetX = (targetDiv.offsetWidth - draggedImg.width) / 2;
+        var offsetY = (targetDiv.offsetHeight - draggedImg.height) / 2;
+        draggedImg.style.left = offsetX + 'px';
+        draggedImg.style.top = offsetY + 'px';
+   		 }
+		}
+
+	</script>
+</head>
+
+<body>
+	<div class="container-fluid">
+	</div>
+	 
+
+
+
+		<div class="kongge">
+		   <div class="row">
+
+        <input type="button" value="返回" onclick="submitForm()">
+
+ 		 </div>
+
+			
+ 		 </div>
+
+ 	 			<div class="kongge">
+		  <div class="row">
+
+ 		 </div>
+ 	 	</div>
+
+	<div class="container_mid">
+
+	<div class="container_center row align-items-end">
+ 		<div class="coll1 col-7 col-md-12 d-flex flex-column" >
+	      <h1></h1>
+
+	      <p></p>
+
+			<div class="grid-container">
+		 	 <div class="grid-item" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"> 
+             </div>
+		 	 <div class="grid-item"></div>
+		 	 <div class="grid-item"></div>  
+		 	 <div class="grid-item"></div>
+		 	 <div class="grid-item"></div>
+		 	 <div class="grid-item"></div>  
+		 	 <div class="grid-item"></div>
+		 	 <div class="grid-item"></div>
+		 	 <div class="grid-item"></div>  
+			</div>
+		</div>
+
+		<div class="coll2 col-lg-5 col-md-12">
+				<p></p>
+
+  
+				<br>
+				<img id="drag1" src="images/image 33.jpg" draggable="true" ondragstart="drag(event)" width="200" height="200">
+								
+		</div>
+
+	</div>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background:url(../images/bg1.jpg);
+}
+form{
+	width: 350px;
+	height: 600px;
+	position: absolute;
+	left: 50%;
+	top: 35%;
+	transform: translate(-50%,-50%);
+}
+
+div{
+	margin-bottom: 50px;
+}
+
+p,label{
+	font-size: 30px;
+	color:#e9e8e7;
+	letter-spacing: 8px;
+}
+
+input,button{
+	font-size: 30px;
+	border-radius:20px;
+}
+button{
+	color:#e9e8e7;
+	height: 70px;
+	background-color: rgba(110, 110, 112, 0.5);
+	letter-spacing: 10px;
+}
+input{
+	width: 200px;
+	height: 40px;
+
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+　　 color:#999;
+    font-size:25px;
+		text-align: center;
+　　}
+
+
+#username,#password{
+	float: right;
+}
+
+#check_wrape{
+	display: none;
+	font-size: 12px;
+}
+
+#dianji{
+	height: 100px;
+}
+#log {
+	width:150px;
+	float: left;
+
+}
+#reg{
+	width:150px;
+	float: right;
+
+}
+
+#log_reg{
+	display: none;
+	width: 350px;
+	margin: 0 auto;
+}
+
+#checkbox{
+	width:400px;
+	height: 30px;
+	font-size: 20px;
+	letter-spacing: 6px;
+}
+#check{
+	width: 20px;
+	height:20px;
+
+}
+#warning{
+	font-size: 25px;
+	text-align: center;
+}
+a{
+	float: inherit;
+	font-size: 20px;
+	color: #20d38f;
+	text-decoration: none;
+  background-color: transparent;
+	letter-spacing: 10px;
+}
