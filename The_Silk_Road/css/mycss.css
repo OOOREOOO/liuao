@@ -6,6 +6,12 @@
   /* text-align: center;
   background: #fff; */
 }
+body {
+  background-image: url("../images/Group_284.jpg");
+  background-size: cover;
+  background-position: top;
+
+}
 /* .white{
   color: rgb(255, 255, 255);
 } */
@@ -65,14 +71,12 @@
 
 .container-fluid{
   /*图片地址 不重复 水平位置居中 垂直位置居中*/
-  background: url(../images/1.jpg) no-repeat top center;
+  /* background: url(../images/1.jpg) no-repeat top center;
   height: 150%;
-  width: 100%;
+  width: 100%; */
             /*把背景图片放大到适合元素容器的尺寸，图片比例不变*/
-  background-size:cover;
-  position:absolute;
-  left:0;
-  top:0;
+  /* background-size:cover;
+  position:relative; */
   /* background-color: rgb(226, 226, 226); */
 }
 .nav-photo{
@@ -274,7 +278,9 @@
 .col-8{
 	position: left;
 }
-
+.botton{
+  padding-left: 30%;
+}
 
 h1{
   margin: 0 auto;
@@ -694,3 +700,7 @@ input[type=button]:hover {
     height: 100%;
 }
 	/* 上面是留言部分 */
+  .btn-warning{
+    z-index: 999;
+    margin: 5px;
+  }
