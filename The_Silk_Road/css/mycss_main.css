@@ -621,7 +621,7 @@ input[type=button]:hover {
   padding: 60px 20px 0 40px ;
 }
 .coll1 {
-    padding: 40px 30px 0 25px;
+    padding:0px 0px 0 25px;
 }
 
 .form1 input{
@@ -704,3 +704,11 @@ input[type=button]:hover {
     z-index: 999;
     margin: 5px;
   }
+
+
+
+
+
+
+
+
